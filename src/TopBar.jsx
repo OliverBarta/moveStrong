@@ -20,7 +20,7 @@ function TopBar() {
                 <div className='otherPagesBox'>
                     <Link to="/about" className='link2' onClick={() => setIsOpen(false)}>about</Link>
                     <Link to="/resources" className='link2' onClick={() => setIsOpen(false)}>resources</Link>
-                    <Link to="/findprograms" className='link2' onClick={() => setIsOpen(false)}>find prograns</Link>
+                    <Link to="/findprograms" className='link2' onClick={() => setIsOpen(false)}>find programs</Link>
                     <Link to="/forproviders" className='link2' onClick={() => setIsOpen(false)}>for providers</Link>
                 </div>
                 <button className='dropDown' onClick={toggleMenu}>{isOpen ? '-' : '<'}</button>

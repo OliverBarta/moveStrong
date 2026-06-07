@@ -1,0 +1,14 @@
+
+
+.bubbleText {
+    background-color: var(--accent-bg);
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 5px 10px;
+    border: var(--accent-border) solid 1px;
+    border-radius: 20px;
+    color: var(--accent)
+
+}

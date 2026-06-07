@@ -15,7 +15,6 @@ function App() {
   return (
       <Router>
       <TopBar /> 
-      
       <main style={{ paddingTop: '70px' }}>
         <Routes>
           <Route path="/" element={<Home />} />
