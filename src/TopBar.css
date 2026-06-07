@@ -1,0 +1,29 @@
+
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--bg-translucent);
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    /* justify-content: center; */
+    vertical-align: center;
+    color: var(--text-h);
+
+    box-sizing: border-box;
+    padding: 0 24px;
+    gap: 16px;
+    
+}
+
+
+.iconImg {
+    height: 35px;
+    width: 35px;
+    object-fit: contain;
+}

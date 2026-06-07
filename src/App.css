@@ -1,0 +1,7 @@
+
+
+.bigSquare {
+  background-image: linear-gradient(var(--accent), var(--bg));
+  width: 50px;
+  height: 300px;
+}
