@@ -11,14 +11,10 @@
     width: 100%;
     height: 70px;
     align-items: center;
-    /* justify-content: center; */
     vertical-align: center;
-    color: var(--text-h);
-
     box-sizing: border-box;
     padding: 0 24px;
     gap: 16px;
-    
 }
 
 
@@ -27,3 +23,120 @@
     width: 35px;
     object-fit: contain;
 }
+
+.title {
+    color: var(--text-h);
+}
+
+.dropDown {
+    all: unset;
+    display: none;
+    margin-left: auto;
+}
+
+.link {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    gap: 16px;
+}
+
+.link2 {
+    all: unset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    gap: 16px;
+}
+
+.link3 {
+    all: unset;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: center;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    gap: 16px;
+    padding-left: 24px;
+}
+
+.droppedDown {
+    display: none;
+    width: 100%;
+    /* background: var(--bg-translucent); */
+    background: gray;
+    flex-direction: column;
+    align-items: left;
+    position: fixed;
+    gap: 16px;
+    top: 70px;
+    left: 0;
+    padding: 16px;
+
+}
+
+@media (max-width: 700px) {
+    .link3 {
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        vertical-align: center;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: pointer;
+        gap: 16px;
+        padding-left: 8px;
+    }
+    .link2 {
+        all: unset;
+        display: none;
+        flex-direction: row;
+        align-items: center;
+        vertical-align: center;
+        box-sizing: border-box;
+        box-sizing: border-box;
+        cursor: pointer;
+        gap: 16px;
+    }
+    .dropDown {
+        all: unset;
+        display: flex;
+        margin-left: auto;
+    }
+    .droppedDown {
+        display: flex;
+    }
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.link2:hover {
+    text-decoration: underline;
+}
+.link3:hover {
+    text-decoration: underline;
+}
+
+.otherPagesBox {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    padding: 0 24px;
+    gap: 16px;
+}
+
+
+
