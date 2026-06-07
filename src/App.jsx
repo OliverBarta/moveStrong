@@ -17,11 +17,11 @@ function App() {
       <TopBar /> 
       <main style={{ paddingTop: '70px' }}>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/resources" element={<Resources />} />
-          <Route path="/findprograms" element={<FindPrograms />} />
-          <Route path="/forproviders" element={<ForProviders />} />
+          <Route path="/moveStrong/" element={<Home />} />
+          <Route path="/moveStrong/about" element={<About />} />
+          <Route path="/moveStrong/resources" element={<Resources />} />
+          <Route path="/moveStrong/findprograms" element={<FindPrograms />} />
+          <Route path="/moveStrong/forproviders" element={<ForProviders />} />
         </Routes>
       </main>
     </Router>
