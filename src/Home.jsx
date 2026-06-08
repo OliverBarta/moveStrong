@@ -16,7 +16,6 @@ function Home() {
     return (
         <>
             <div className='bubbleText'>For older adults across Ontario</div>
-            
             <div style={{ padding: '20px' }} className='centeredArea'>
                 <h1>Find an exercise program that's right for you.</h1>
                 <p>Search community classes, virtual coaching, and disease-specific programs — filtered by your city, your goals, and your budget.</p>
