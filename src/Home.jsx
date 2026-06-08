@@ -29,7 +29,7 @@ function Home() {
                 </form>
 
             </div>
-            <div style={{padding: '0px 20px'}}>
+            <div style={{padding: '0px 20px', marginTop: '100px'}}>
                 <div className='whiteBoxArea'>
                     <div className='whiteBox'>
                         <h3>STEP 1</h3>

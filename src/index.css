@@ -39,8 +39,8 @@
     --bg-translucent: rgba(31, 30, 28, 0.95);
     --border: #2e303a;
     --other-bg: rgb(31, 30, 28);
-    --accent: rgb(5, 164, 0);
-    --accent-bg: rgba(4, 58, 0, 0.95);
+    --accent: rgb(6, 194, 0);
+    --accent-bg: rgba(4, 53, 0, 0.95);
     --accent-border: rgba(28, 118, 25, 0.406);
     --social-bg: rgba(47, 48, 58, 0.5);
     --shadow:
@@ -175,9 +175,20 @@ p {
 
   box-sizing: border-box;
   padding: 24px;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+}
+
+.whiteBox:hover {
+
+  box-shadow: var(--shadow);
 }
 
 .topRow {
   display: flex;
   flex-direction: row;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--accent);
 }
