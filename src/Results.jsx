@@ -5,7 +5,8 @@ import programData from '/Users/oliver/moveStrong/programs.json'
 
 function Results({ cityFilter, priceFree, nonFreePrice, keyWord }) {
 
-    const tagKeyWords = ["Strength", "Fall", "Balance", "Aerobic", "Social", "Bone health", "Senior"];
+    const tagKeyWords = ["Strength", "Fall", "Balance", "Aerobic", "Social", "Bone health", "Senior", "Recovery"];
+    const tagKeyWords2 = ["Cancer", "Alzheimer", "Osteoarthritis"];
 
     const cleanFeesText = (feeText) => {
         console.log(feeText);
@@ -114,6 +115,9 @@ function Results({ cityFilter, priceFree, nonFreePrice, keyWord }) {
                                 <div className='tagGreen' style={{display: item.fees.toLowerCase().includes('ohip') ? 'flex' : 'none'}}>$OHIP</div>
                                 {tagKeyWords.map(wordK => (
                                     item.description.toLowerCase().includes(wordK.toLowerCase()) || item.programName.toLowerCase().includes(wordK.toLowerCase()) && <div id={wordK} className='tagGray'>{wordK}</div>
+                                ))}
+                                {tagKeyWords2.map(wordK => (
+                                    item.description.toLowerCase().includes(wordK.toLowerCase()) || item.programName.toLowerCase().includes(wordK.toLowerCase()) && <div id={wordK} className='tagOrange'>{wordK}</div>
                                 ))}
                             </div>
                         </a>

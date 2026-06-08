@@ -9,6 +9,7 @@
   --accent-bg: rgba(209, 255, 208, 0.95);
   --accent-border: rgba(28, 118, 25, 0.406);
   --social-bg: rgba(244, 243, 236, 0.5);
+  --orange: rgb(255, 210, 151);
   --shadow:
     rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
@@ -43,6 +44,7 @@
     --accent-bg: rgba(4, 53, 0, 0.95);
     --accent-border: rgba(28, 118, 25, 0.406);
     --social-bg: rgba(47, 48, 58, 0.5);
+    --orange: rgb(145, 82, 0);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
   }
