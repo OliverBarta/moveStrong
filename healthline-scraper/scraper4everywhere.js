@@ -51,53 +51,6 @@ function extractDescription($$) {
         .join('\n');
 }
 
-
-function extractField($, label) {
-    let result = '';
-    $('li').each((_, el) => {
-        const text = $(el).text();
-        const idx = text.indexOf(label);
-        if (idx !== -1) {
-            result = text.slice(idx + label.length).trim();
-            return false;
-        }
-    });
-    return result;
-}
-
-// Parses "1691 Gordon St\nGuelph, ON\nN1L 1E1" into structured fields
-function parseAddress(raw) {
-    // Normalize: split on newlines and commas, clean up whitespace
-    const lines = raw
-        .replace(/\s*Map\s*/gi, '')          // remove "Map" link text
-        .split(/[\n,]+/)
-        .map(l => l.trim())
-        .filter(Boolean);
-
-    let street = '';
-    let city = '';
-    let province = '';
-    let postalCode = '';
-
-    for (const line of lines) {
-        if (/^[A-Z]\d[A-Z]\s?\d[A-Z]\d$/i.test(line)) {
-            // Canadian postal code e.g. "N1L 1E1"
-            postalCode = line.toUpperCase();
-        } else if (/^[A-Z]{2}$/.test(line)) {
-            // Province abbreviation e.g. "ON"
-            province = line.toUpperCase();
-        } else if (/^\d+\s+\w/.test(line) && !street) {
-            // Street address starts with a number e.g. "1691 Gordon St"
-            street = line;
-        } else if (!city && line.length > 1) {
-            // First remaining string is the city
-            city = line;
-        }
-    }
-
-    return { street, city, province, postalCode };
-}
-
 async function getAllLinks(query) {
     const deepLinks = new Set();
     let page = 0;
@@ -144,9 +97,6 @@ async function getAllLinks(query) {
             break;
         }
 
-        // FOR TESTING !!!!! DELETE AFTER
-        if (page > 1) break;
-
         page++;
         await delay(300);
     }
@@ -176,19 +126,6 @@ async function scrapeProgram(url, index) {
     const phone = $$('#ctl00_ContentPlaceHolder1_lblOfficePhone').text().trim() || 'N/A';
     const areaServed  = $$('#ctl00_ContentPlaceHolder1_lblAreasServed').text().trim() || 'N/A';
 
-    // ✅ Fees: try the exact label first, fall back to a looser match
-    let rawCost = extractField($$, 'Fees:');
-    if (!rawCost) {
-        $$('li').each((_, el) => {
-            const text = $$(el).text();
-            if (/fees/i.test(text) && !rawCost) {
-                rawCost = text.replace(/fees\s*:/i, '').trim();
-            }
-        });
-    }
-
-
-
     if (!programName) return null;
 
     return {
@@ -205,15 +142,15 @@ async function scrapeProgram(url, index) {
         fees,
         phone,
         email,
-        healthlineurl: url,
+        infosourceurl: url,
         website
     };
 }
 
 async function scrapeDeepHealthline() {
     try {
-        const linkArray = await getAllLinks('Exercise program');
-        console.log(`\n🔗 ${linkArray.length} unique links collected. Starting detail scrape...\n`);
+        const linkArray = await getAllLinks('Exercise programs');
+        console.log(`\n ${linkArray.length} unique links collected. Starting detail scrape...\n`);
 
         const compiledPrograms = [];
 
@@ -235,7 +172,7 @@ async function scrapeDeepHealthline() {
 
             if ((i + 1) % 25 === 0) {
                 fs.writeFileSync('programs_checkpoint.json', JSON.stringify(compiledPrograms, null, 2));
-                console.log(`   💾 Checkpoint: ${compiledPrograms.length} saved`);
+                console.log(`Checkpoint: ${compiledPrograms.length} saved`);
             }
 
             await delay(400);
@@ -243,14 +180,14 @@ async function scrapeDeepHealthline() {
 
         if (compiledPrograms.length > 0) {
             fs.writeFileSync('programs_waterloo.json', JSON.stringify(compiledPrograms, null, 2), 'utf-8');
-            console.log(`\n💾 Written to programs_waterloo.json`);
+            console.log(`\n Written to programs_waterloo.json`);
             console.log(`🎉 Total: ${compiledPrograms.length} programs`);
         } else {
-            console.log('❌ 0 programs scraped.');
+            console.log('0 programs scraped.');
         }
 
     } catch (error) {
-        console.error(`❌ Fatal: ${error.message}`);
+        console.error(`Fatal: ${error.message}`);
     }
 }
 

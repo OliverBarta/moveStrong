@@ -9,6 +9,7 @@ function FindPrograms() {
     const [cityInput, setCityInput] = useState('');
     const [priceFree, setPriceFree] = useState(true);
     const [nonFreePrice, setNonFreePrice] = useState(true);
+    const [keyWord, setKeyWord] = useState('');
 
     const toggleFilterMenu = () => {
         setFilterIsOpen(!filterIsOpen);
@@ -47,6 +48,11 @@ function FindPrograms() {
                     value={cityInput}
                     onChange={(e) => setCityInput(e.target.value)}
                 />
+                <h2>Keyword:</h2>
+                <input type="text" placeholder="Enter keyword (e.g fall, strength)" autoComplete="off" className='searchBar'
+                    value={keyWord}
+                    onChange={(e) => setKeyWord(e.target.value)}
+                />
                 <h2>Price: </h2>
                 <div className='oneFilter'>
                     <input type='checkbox' checked={priceFree} onChange={(e) => setPriceFree(e.target.checked)}/>
@@ -63,6 +69,11 @@ function FindPrograms() {
                     value={cityInput}
                     onChange={(e) => setCityInput(e.target.value)}
                 />
+                <h2>Keyword:</h2>
+                <input type="text" placeholder="Enter keyword (e.g fall, strength)" autoComplete="off" className='searchBar'
+                    value={keyWord}
+                    onChange={(e) => setKeyWord(e.target.value)}
+                />
                 
                 <h2>Price: </h2>
                 <div className='oneFilter'>
@@ -77,7 +88,7 @@ function FindPrograms() {
             <div className='mainArea'>
                     <h1>Find Programs</h1>
                     <button className='filtersToggle' onClick={toggleFilterMenu}>Filters</button>
-                    <Results cityFilter={cityInput} priceFree={priceFree} nonFreePrice={nonFreePrice}/>
+                    <Results cityFilter={cityInput} priceFree={priceFree} nonFreePrice={nonFreePrice} keyWord={keyWord}/>
             </div>
         </div>
     )

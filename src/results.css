@@ -13,9 +13,31 @@
     background: var(--other-bg);
     border: var(--text-h) solid 1px;
     border-radius: 20px;
+    gap: 16px;
     width: 100%;
     
     box-sizing: border-box;
     padding: 24px;
       
+}
+
+.feesAndTagsArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.tagGreen {
+    background-color: var(--accent-bg);
+    padding: 0px 10px;
+    border-radius: 24px;
+    border: var(--accent-border) solid 1px;
+}
+
+.tagGray {
+    background-color: var(--social-bg);
+    padding: 0px 10px;
+    border-radius: 24px;
+    border: var(--text) solid 1px;
 }
