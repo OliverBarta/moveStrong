@@ -84,8 +84,6 @@
     padding: 16px;
     box-sizing: border-box;
     box-shadow: var(--shadow);
-    
-
 }
 
 @media (max-width: 700px) {

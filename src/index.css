@@ -67,6 +67,14 @@ body {
   box-sizing: border-box;
 }
 
+#root.wide {
+  width: 1400px;
+}
+
+#root.full {
+  width: 100%;
+}
+
 h1{
   font-family: var(--heading);
   margin: autp;
@@ -135,6 +143,7 @@ p {
   display: flex;
   flex-direction: row;
   align-self: center;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -147,6 +156,8 @@ p {
       display: flex;
       flex-direction: column;
       margin-bottom: 20px;
+      
+      box-sizing: border-box;
   }
   
   .whiteBox:not(:last-of-type) {
@@ -156,6 +167,7 @@ p {
 }
 
 .whiteBox {
+  all: unset;
   background: var(--other-bg);
   border: var(--text-h) solid 1px;
   border-radius: 20px;

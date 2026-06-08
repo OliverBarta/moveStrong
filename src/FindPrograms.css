@@ -1,0 +1,82 @@
+
+
+.outsideArea {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainArea {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.filtersToggle {
+    all: unset;
+    display: none;
+    padding: 10px 16px;
+    border: 1px solid var(--text-h);
+    background-color: var(--other-bg);
+    border-radius: 36px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+
+.filtersArea {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0;
+    width: 600px;
+    background: var(--bg-translucent);
+    box-shadow: var(--shadow);
+    min-height: 100dvh;
+
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 16px;
+}
+
+.filtersAreaPop {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    border-radius: 0;
+    background: var(--bg-translucent);
+    box-shadow: var(--shadow);
+    min-height: 100dvh;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    gap: 16px;
+}
+
+@media (max-width: 900px) {
+    .filtersToggle {
+        display: flex;
+    }
+    .filtersArea {
+        display: none;
+    }
+}
+
+.applyFilters {
+    all: unset;
+    display: flex;
+    padding: 10px 16px;
+    border: 1px solid var(--text-h);
+    background-color: var(--other-bg);
+    border-radius: 36px;
+    margin-left: auto;
+    margin-bottom: 16px;
+}
+
+.oneFilter {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}

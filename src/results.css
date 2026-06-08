@@ -1,0 +1,21 @@
+
+.resultsArea {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-results {
+    margin: auto;
+}
+
+.programListing {
+    all: unset;
+    background: var(--other-bg);
+    border: var(--text-h) solid 1px;
+    border-radius: 20px;
+    width: 100%;
+    
+    box-sizing: border-box;
+    padding: 24px;
+      
+}

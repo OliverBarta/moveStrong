@@ -3,7 +3,7 @@ import './About.css'
 function About() {
     return (
         <>
-            <div style={{ padding: '20px' }}>
+            <div style={{ padding: '20px' }} className='centeredArea'>
 
                 <h1>About this project</h1>
                 <p>

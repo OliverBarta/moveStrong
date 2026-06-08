@@ -9,6 +9,73 @@
     padding: 5px 10px;
     border: var(--accent-border) solid 1px;
     border-radius: 20px;
-    color: var(--accent)
+    color: var(--accent);
+}
 
+.searchBar {
+    all: unset;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    border: 1px solid var(--text-h);
+    background-color: var(--other-bg);
+    border-radius: 36px;
+    width: 100%;
+
+    transition: box-shadow 0.3s ease;
+
+}
+
+
+.searchBar:focus {
+    box-shadow: var(--shadow);
+}
+
+.searchDivBig {
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+
+    gap: 0px;
+    transition: gap 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.searchDivBig.active {
+    gap: 16px;
+}
+
+.buttonSearch {
+    background-color: var(--accent-bg);
+    padding: 0;
+    border: none;
+    border-radius: 20px;
+    color: var(--accent);
+    cursor: pointer;
+    max-height: fit-content;
+    margin: auto;
+
+    max-width: 0px;
+    opacity: 0;
+    transform: scale(0.6);
+    white-space: nowrap;
+    overflow: hidden;
+
+    transition: 
+        max-width 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+        padding 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.2s ease,
+        transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    
+}
+
+.searchDivBig.active .buttonSearch {
+    max-width: 100px; /* Gives it enough space to expand cleanly */
+    opacity: 1;
+    border: var(--accent-border) solid 1px;
+    padding: 10px 16px;
+    padding-right: 20px;
+    transform: scale(1);
+}
+
+.buttonSearch:hover {
+    background: var(--bg);
 }
