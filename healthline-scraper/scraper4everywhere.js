@@ -12,12 +12,10 @@ function extractAddress($$) {
     span.find('br').replaceWith('\n');
     const lines = span.text().split('\n').map(l => l.trim()).filter(Boolean);
 
-    // Lines come in order
-
-    const street     = lines[lines.length-3] || '';
-    const cityProv   = lines[lines.length-2] ? lines[lines.length-2].split(',') : [];
-    const city       = cityProv[0]?.trim() || '';
-    const province   = cityProv[1]?.trim() || '';
+    const street = lines[lines.length-3] || '';
+    const cityProv = lines[lines.length-2] ? lines[lines.length-2].split(',') : [];
+    const city = cityProv[0]?.trim() || '';
+    const province = cityProv[1]?.trim() || '';
     const postalCode = lines[lines.length-1] || '';
 
     return { street, city, province, postalCode };
