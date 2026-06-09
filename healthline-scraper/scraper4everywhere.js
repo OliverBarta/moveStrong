@@ -95,6 +95,9 @@ async function getAllLinks(query) {
             break;
         }
 
+        // for TESTING REMOVE AFTER
+        if (page >=4) break;
+
         page++;
         await delay(300);
     }
@@ -109,27 +112,35 @@ async function scrapeProgram(url, index) {
 
     const $$ = cheerio.load(detailHtml);
 
-    const rawTitle = $$('title').text().trim();
-    const programName = rawTitle.replace(/ - wwhealthline\.ca$/i, '').trim();
-    const orgName = $$('meta[name="organization"]').attr('content') || '';
+    const programName = $$('#ctl00_ContentPlaceHolder1_lblProgram').text().trim();
+
+    // sometimes the organization name is split between 2 elements
+    let organizationName = $$('#ctl00_ContentPlaceHolder1_rptOrganizations_ctl00_lnkOrganization').text().trim() + " " + $$('#ctl00_ContentPlaceHolder1_rptOrganizations_ctl01_lnkOrganization').text().trim() || $$('#ctl00_ContentPlaceHolder1_rptOrganizations_ctl00_lnkOrganization').text().trim() || "";
+
+    if (organizationName === " ") organizationName = "";
 
     const { street, city, province, postalCode } = extractAddress($$);
 
     const description = extractDescription($$);
 
-    const email = $$('#ctl00_ContentPlaceHolder1_lnkEmail').text().trim() || 'N/A';
-    const fees = $$('#ctl00_ContentPlaceHolder1_lblFees').text().trim() || 'N/A';
-    const website = $$('#ctl00_ContentPlaceHolder1_lnkUrl').attr('href') || 'N/A';
-    const eligibility = $$('#ctl00_ContentPlaceHolder1_lblEligibility').text().trim() || 'N/A';
-    const phone = $$('#ctl00_ContentPlaceHolder1_lblOfficePhone').text().trim() || 'N/A';
-    const areaServed  = $$('#ctl00_ContentPlaceHolder1_lblAreasServed').text().trim() || 'N/A';
+    const email = $$('#ctl00_ContentPlaceHolder1_lnkEmail').text().trim() || "";
+
+    const feesElement = $$('#ctl00_ContentPlaceHolder1_lblFees');
+    feesElement.find('br').replaceWith(' ');
+    const fees = feesElement.text().trim() || "";
+
+    const website = $$('#ctl00_ContentPlaceHolder1_lnkUrl').attr('href') || "";
+    const eligibility = $$('#ctl00_ContentPlaceHolder1_lblEligibility').text().trim() || "";
+    const phone = $$('#ctl00_ContentPlaceHolder1_lblOfficePhone').text().trim() || "";
+    const areaServed  = $$('#ctl00_ContentPlaceHolder1_lblAreasServed').text().trim() || "";
+    const language = $$('#ctl00_ContentPlaceHolder1_lblLanguages').text().trim() || ""
 
     if (!programName) return null;
 
     return {
         id: `hl-waterloo-${index}`,
         programName,
-        organizationName: orgName || programName,
+        organizationName,
         street,
         city,
         province,
@@ -138,9 +149,13 @@ async function scrapeProgram(url, index) {
         description: description.replace(/\s+/g, ' '),
         eligibility: eligibility.replace(/\s+/g, ' '),
         fees,
+        duration: "",
+        language,
         phone,
         email,
         infosourceurl: url,
+        infosourcename: "healthline",
+        tags: [],
         website
     };
 }
@@ -160,9 +175,9 @@ async function scrapeDeepHealthline() {
                 const program = await scrapeProgram(url, i);
                 if (program) {
                     compiledPrograms.push(program);
-                    process.stdout.write(`✅ ${program.programName} (${program.city || 'no city'})\n`);
+                    process.stdout.write(`✅ ${program.programName}\n`);
                 } else {
-                    process.stdout.write(`⚠️  No name, skipped\n`);
+                    process.stdout.write(`No name, skipped\n`);
                 }
             } catch (err) {
                 process.stdout.write(`❌ ${err.message}\n`);
@@ -179,7 +194,7 @@ async function scrapeDeepHealthline() {
         if (compiledPrograms.length > 0) {
             fs.writeFileSync('programs_waterloo.json', JSON.stringify(compiledPrograms, null, 2), 'utf-8');
             console.log(`\n Written to programs_waterloo.json`);
-            console.log(`🎉 Total: ${compiledPrograms.length} programs`);
+            console.log(`Total: ${compiledPrograms.length} programs`);
         } else {
             console.log('0 programs scraped.');
         }
