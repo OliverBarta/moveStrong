@@ -96,7 +96,7 @@ async function getAllLinks(query) {
         }
 
         // for TESTING REMOVE AFTER
-        if (page >=4) break;
+        // if (page >=4) break;
 
         page++;
         await delay(300);
@@ -119,7 +119,7 @@ async function scrapeProgram(url, index) {
 
     if (organizationName === " ") organizationName = "";
 
-    const { street, city, province, postalCode } = extractAddress($$);
+    const { street, location, province, postalCode } = extractAddress($$);
 
     const description = extractDescription($$);
 
@@ -142,7 +142,7 @@ async function scrapeProgram(url, index) {
         programName,
         organizationName,
         street,
-        city,
+        location,
         province,
         postalCode,
         areaServed,
