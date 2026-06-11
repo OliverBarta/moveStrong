@@ -11,19 +11,21 @@ function FindPrograms() {
     const [nonFreePrice, setNonFreePrice] = useState(true);
     const [keyWord, setKeyWord] = useState('');
 
+    // toggles the filter open and closed
     const toggleFilterMenu = () => {
         setFilterIsOpen(!filterIsOpen);
     };
 
 
+    // pulls the city to filter from the url. The city to pull is put in the url when you go from the home search.
     useEffect(() => {
-        const queryParams = new URLSearchParams(city.search);
+        const queryParams = new URLSearchParams(location.search);
         const cityFromUrl = queryParams.get('city');
         
         if (cityFromUrl) {
             setCityInput(cityFromUrl);
         }
-    }, [city.search]);
+    }, [location.search]);
     
     // Checks for resized windows
     useEffect(() => {
