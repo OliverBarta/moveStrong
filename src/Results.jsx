@@ -1,5 +1,3 @@
-
-
 import './results.css'
 import programData from '/Users/oliver/moveStrong/programs.json'
 
@@ -102,7 +100,7 @@ function Results({ cityFilter, priceFree, nonFreePrice, keyWord }) {
             }
         }
 
-        return item.location.toLowerCase().includes(cityFilter.toLowerCase());
+        return item.city.toLowerCase().includes(cityFilter.toLowerCase()) || item.city === "GoodLife";
 
     });
 
@@ -116,11 +114,11 @@ function Results({ cityFilter, priceFree, nonFreePrice, keyWord }) {
                             <div className='organization'>{item.organizationName}</div>
                             <h3>{item.programName}</h3>
                             <p>{shortenDescription(item.description)}</p>
-                            {item.location && <p className='city'>
+                            {item.city && <p className='city'>
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
                                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                                 </svg>
-                                <span>{item.location}</span>
+                                <span>{item.city}</span>
                             </p>}
                             <p></p>
                             <div className='feesAndTagsArea'>

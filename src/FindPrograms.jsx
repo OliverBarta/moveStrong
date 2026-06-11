@@ -17,13 +17,13 @@ function FindPrograms() {
 
 
     useEffect(() => {
-        const queryParams = new URLSearchParams(location.search);
+        const queryParams = new URLSearchParams(city.search);
         const cityFromUrl = queryParams.get('city');
         
         if (cityFromUrl) {
             setCityInput(cityFromUrl);
         }
-    }, [location.search]);
+    }, [city.search]);
     
     // Checks for resized windows
     useEffect(() => {

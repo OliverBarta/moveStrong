@@ -15,7 +15,7 @@ function formatProgram(rawData, url) {
         programName: rawData.program.name,
         organizationName: "GoodLife",
         street: "",
-        location: "GoodLife",
+        city: "GoodLife",
         province: "",
         postalCode: "",
         areaServed: "",
