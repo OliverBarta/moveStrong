@@ -23,7 +23,7 @@ function formatProgram(rawData, url) {
         eligibility: "",
         fees: "Goodlife membership",
         duration: rawData.classDuration,
-        language: "English",
+        language: "English * French",
         phone: "",
         email: "",
         infosourceurl: url,

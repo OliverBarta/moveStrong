@@ -13,15 +13,24 @@
     width: 100%;
 }
 
+
+.filters2ButtonRow {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    cursor: pointer;
+}
+
 .filtersToggle {
     all: unset;
     display: none;
+    width: fit-content;
     padding: 10px 16px;
     border: 1px solid var(--text-h);
     background-color: var(--other-bg);
     border-radius: 36px;
-    margin-left: auto;
     margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .filtersArea {

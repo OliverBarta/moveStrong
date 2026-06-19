@@ -10,10 +10,10 @@
 
 .programListing {
     all: unset;
+    cursor: pointer;
     background: var(--other-bg);
     border: var(--text-h) solid 1px;
     border-radius: 20px;
-    gap: 16px;
     width: 100%;
     
     box-sizing: border-box;
@@ -54,9 +54,24 @@
     color: var(--text-h);
 }
 
+.language {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--text-h);
+}
+
+.cityAndOthersRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0px;
+}
+
 .organization {
     gap: 0;
     margin: 0;
     padding: 0;
-    font-size: 14px;   
+    font-size: 14px;
 }

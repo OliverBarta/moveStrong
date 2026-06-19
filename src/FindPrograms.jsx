@@ -11,6 +11,13 @@ function FindPrograms() {
     const [nonFreePrice, setNonFreePrice] = useState(true);
     const [keyWord, setKeyWord] = useState('');
 
+    const resetFilters = () => {
+        setCityInput('');
+        setPriceFree(true);
+        setNonFreePrice(true);
+        setKeyWord('');
+    };
+
     // toggles the filter open and closed
     const toggleFilterMenu = () => {
         setFilterIsOpen(!filterIsOpen);
@@ -46,6 +53,7 @@ function FindPrograms() {
     return (
         <div className='outsideArea'>
             <div className='filtersArea'>
+                <button className='filtersToggle' style={{display: "flex", marginBottom: "0"}} onClick={resetFilters}>Reset filters</button>
                 <input type="text" placeholder="Enter city" autoComplete="off" className='searchBar'
                     value={cityInput}
                     onChange={(e) => setCityInput(e.target.value)}
@@ -89,7 +97,10 @@ function FindPrograms() {
             </div>
             <div className='mainArea'>
                     <h1>Find Programs</h1>
-                    <button className='filtersToggle' onClick={toggleFilterMenu}>Filters</button>
+                    <div className='filters2ButtonRow'>
+                        <button className='filtersToggle' onClick={toggleFilterMenu}>Filters</button>
+                        <button className='filtersToggle' onClick={resetFilters}>Reset filters</button>
+                    </div>
                     <Results cityFilter={cityInput} priceFree={priceFree} nonFreePrice={nonFreePrice} keyWord={keyWord}/>
             </div>
         </div>
