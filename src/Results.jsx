@@ -8,12 +8,16 @@ function DescriptionItem({ item, shortenDescription, expandedIDs, setExpandedIDs
     // if the description should be expanded (not be cut off after 21 words)
     const expanded = expandedIDs.includes(item.id);
 
+    // if the description is too small for the need for the more or less buttons
+    const smallDescription = item.description.split(" ").length < 21;
+
     return (
         <p id={item.id+"d"}>{expanded ? shortenDescription(item.description, 1000) : shortenDescription(item.description, 21)}
-            {!expanded &&
+
+            {(!expanded && !smallDescription) &&
                 <button className='showMoreButton' onClick={() => setExpandedIDs(expandedIDs => [...expandedIDs,item.id])}>show more</button>
             }
-            {expanded &&
+            {(expanded && !smallDescription) &&
                 <button className='showMoreButton' onClick={() => setExpandedIDs(expandedIDs => expandedIDs.filter(id => id !== item.id))}>show less</button>
             }
         </p>
