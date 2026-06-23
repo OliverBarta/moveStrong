@@ -30,6 +30,7 @@ function Home() {
 
             </div>
             <div style={{padding: '0px 20px', marginTop: '100px'}}>
+                <h1>How it works</h1>
                 <div className='whiteBoxArea'>
                     <div className='whiteBox'>
                         <h3>STEP 1</h3>
