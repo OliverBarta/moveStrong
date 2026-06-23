@@ -10,7 +10,6 @@
 
 .programListing {
     all: unset;
-    cursor: pointer;
     background: var(--other-bg);
     border: var(--text-h) solid 1px;
     border-radius: 20px;

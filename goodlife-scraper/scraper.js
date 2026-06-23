@@ -10,6 +10,12 @@ function formatProgram(rawData, url) {
 
     const tags = rawData.program.categories.map((item) => item.name);
 
+    let website = rawData.classDetailsPagePath || "";
+
+    if (!website.includes("goodlifefitness.com")) {
+        website = "https://www.goodlifefitness.com/class-schedule.html#no-redirect";
+    }
+
     return {
         id: `hl-waterloo-goodlife-${rawData.classId}`,
         programName: rawData.program.name,
@@ -29,7 +35,7 @@ function formatProgram(rawData, url) {
         infosourceurl: url,
         infosourcename: "goodlife",
         tags,
-        website: rawData.classDetailsPagePath
+        website
     };
 }
 
@@ -56,6 +62,7 @@ async function scrapeGoodLifeDay(url) {
             const name = item.program.name;
 
             if (!usedIds.has(id)) {
+                console.log("✅ Adding: ", id, name);
                 const program = await formatProgram(item, url);
                 compiledPrograms.push(program);
 
@@ -68,6 +75,7 @@ async function scrapeGoodLifeDay(url) {
                     console.log("Already used: ", id, name);
                 } else {
                     // there are some programs that have the same
+                    console.log("✅ Adding: ", id, name);
                     const program = await formatProgram(item, url);
                     compiledPrograms.push(program);
 
@@ -94,8 +102,7 @@ async function scrapeDaysOfGoodlife(numDays) {
         try {
             await scrapeGoodLifeDay(GOODLIFEAPI+now.toISOString().slice(0, 10)+".json");
         } catch {
-            console.log("failed getting data for ", now.toISOString().slice(0, 10));
-            console.log("Continuing");
+            console.log("❌ failed getting data for ", now.toISOString().slice(0, 10));
         }
     }
 
@@ -105,5 +112,3 @@ async function scrapeDaysOfGoodlife(numDays) {
 
 
 scrapeDaysOfGoodlife(14);
-
-// console.log("FINAL >>>>>> ", compiledPrograms);
