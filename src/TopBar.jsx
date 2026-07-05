@@ -15,7 +15,7 @@ function TopBar() {
             <div className='topBar'>
                 <Link to="/moveStrong/" className='link' onClick={() => setIsOpen(false)}>
                     <img src={icon} className='iconImg'></img>
-                    <div className='title'>Active Aging Ontario</div>
+                    <div className='title'>Move Strong</div>
                 </Link>
                 <div className='otherPagesBox'>
                     <Link to="/moveStrong/about" className='link2' onClick={() => setIsOpen(false)}>about</Link>

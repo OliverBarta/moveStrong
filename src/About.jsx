@@ -13,7 +13,7 @@ function About() {
                 <p>Most physicians know that strength and balance training prevents falls — but they rarely refer patients to community programs. Why? Because keeping track of what's available, where, for whom, and at what cost is genuinely difficult.</p>
                 <p>Meanwhile, excellent free and low-cost programs exist across Ontario — at the YMCA, through VON SMART, Community Support Connections, Ontario Health (North), and from Registered Kinesiologists in private practice. They just aren't easy to find in one place.</p>
                 <h2>What we're building</h2>
-                <p>ActiveAging Ontario is a curated, searchable directory of exercise programs for middle-aged and older adults across the province. Filter by your city, your goals, your health conditions, your budget, and your accessibility needs — and see programs side by side with the information you actually need.</p>
+                <p>Move Strong is a curated, searchable directory of exercise programs for middle-aged and older adults across the province. Filter by your city, your goals, your health conditions, your budget, and your accessibility needs — and see programs side by side with the information you actually need.</p>
                 <p></p>
                 <h2>For three audiences</h2>
                 <div className='whiteBoxArea'>
