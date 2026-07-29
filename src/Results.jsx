@@ -1,5 +1,5 @@
 import './results.css'
-import programData from '/Users/oliver/moveStrong/programs.json'
+import programData from '/Users/oliver/projects/moveStrong/programs.json'
 import { useState } from 'react';
 
 // a function that returns the description, making it shortened or expanded if they click one of the two buttons

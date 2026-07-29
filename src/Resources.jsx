@@ -1,5 +1,5 @@
 import './Resources.css'
-import programData from '/Users/oliver/moveStrong/programs.json'
+import programData from '/Users/oliver/projects/moveStrong/programs.json'
 
 function Resources() {
 

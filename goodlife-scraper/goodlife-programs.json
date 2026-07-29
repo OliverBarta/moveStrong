@@ -1,96 +1,6 @@
 [
   {
-    "id": "hl-waterloo-goodlife-787352",
-    "programName": "BODYPUMP HEAVY™",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "BODYPUMP HEAVY™ is tempo-based weightlifting class that switches on your metabolic engine to build lean muscle like nothing else. Drawing on traditional lifting techniques, each class challenges strength, builds lean muscle, and drives measurable performance gains. It’s simple to do and the slow tempo with lots of recovery periods allows for expert coaching, so you master form and technique. Driven by iconic music and group energy, it turns traditional weightlifting into a fun, social, and addictive experience. Exclusive to GoodLife Fitness.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Strength"
-    ],
-    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
-  },
-  {
-    "id": "hl-waterloo-goodlife-626334",
-    "programName": "Hot Yoga Open Practice (Self-Guided)",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "Hot Yoga Members are invited to enjoy the ideal space and environment in our Hot Yoga Studios to indulge in, explore and deepen their own practice at their own pace. The regulated temperatures of the room and peaceful vibe promote your individual journey and choice of movement or meditation to connect to your strength, confidence and inner peace.      \r\n(Temperature will be set at 95 degrees, please bring your own yoga mat, and note that blocks and straps will not be available.  Social Distancing and capacities in effect, space is very limited & sanitization protocols in place)\r\n",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [],
-    "website": "https://www.goodlifefitness.com/classes/hot-yoga-open-practice--self-guided-.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-626518",
-    "programName": "20/20/20",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "A creative mix of low impact, step, and sculpting to provide fun in a challenging format that will guarantee you results in a short period of time.  Ideal for all fitness levels.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Cardio"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/20-20-20.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-626728",
-    "programName": "NEWBODY",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "NEWBODY is a GoodLife Fitness exclusive class that combines the best of cardio and strength training that is functional in nature.  We integrate both light hand weights 1-3 lbs and resistance tubing in this low impact, multi-level workout ideal for all bodies and abilities.  Whether you are new to group fitness or looking to build additional strength and stamina NEWBODY will help you keep you fit for life.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Cardio"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/newbody.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-674118",
+    "id": "hl-waterloo-goodlife-628082",
     "programName": "RPM™",
     "organizationName": "GoodLife",
     "street": "",
@@ -105,7 +15,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cycling"
@@ -113,101 +23,7 @@
     "website": "https://www.goodlifefitness.com/classes/rpm_.html"
   },
   {
-    "id": "hl-waterloo-goodlife-745717",
-    "programName": "Yoga",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "GoodLife’s multi-level Yoga class will take participants through a number of poses (asanas) designed to increase flexibility and increase stamina while releasing the mind. Unwind in this gentle, non-competitive environment while learning basic breathing techniques and proper body alignment.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Flexibility & Mobility",
-      "Mindfulness",
-      "Yoga"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/yoga.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-627033",
-    "programName": "BODYPUMP™",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "BODYPUMP™ is THE ORIGINAL BARBELL CLASS™, the ideal workout for anyone looking to get lean, toned and fit – fast. Using light to moderate weights with lots of repetition (reps), BODYPUMP™ gives you a total body workout. Using scientifically-backed moves and techniques, you will leave the class feeling challenged and motivated, ready to come back for more! Exclusive to GoodLife Fitness.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Strength"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/bodypump_.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-627425",
-    "programName": "Sculpt & Tone",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "Make muscle, burn calories, lose fat!  An effective total body muscle conditioning workout utilizing a variety of equipment and options.  A great complement to any cardio workout and recommended for all members.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Strength"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/sculpt---tone.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-627138",
-    "programName": "BODYATTACK™",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "BODYATTACK™ is a high-energy, sports-inspired workout with moves that combine athletic movements like running, lunging and jumping with strength exercises such as push-ups and squats. With options for everyone, this class caters to all fitness levels! Exclusive to GoodLife Fitness.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "HIIT & Athletic"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/bodyattack_.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-627835",
+    "id": "hl-waterloo-goodlife-756247",
     "programName": "LES MILLS CORE™",
     "organizationName": "GoodLife",
     "street": "",
@@ -222,7 +38,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Strength"
@@ -230,79 +46,76 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-745978",
-    "programName": "Hot Yin Yoga",
+    "id": "hl-waterloo-goodlife-628665",
+    "programName": "Hot Yoga Open Practice (Self-Guided)",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
     "province": "",
     "postalCode": "",
     "areaServed": "",
-    "description": "Hot Yin Yoga is a form of yoga, held in a heated room, that is devoted to releasing the power of your body by increasing energy flow through its Meridians - this means a MORE DYNAMIC YOU. Targeting the deeper connective tissues such as the ligaments, bones, joints and, primarily, the fascia Yin Yoga utilizes longer held poses - 3 - 5 minutes or more; the perfect complement to the traditional stronger yoga‘s. Done primarily on the floor, at first Yin Yoga may seem slow, passive and soft, but you will soon discover that it can be quite challenging in its own way.",
+    "description": "Hot Yoga Members are invited to enjoy the ideal space and environment in our Hot Yoga Studios to indulge in, explore and deepen their own practice at their own pace. The regulated temperatures of the room and peaceful vibe promote your individual journey and choice of movement or meditation to connect to your strength, confidence and inner peace.      \r\n(Temperature will be set at 95 degrees, please bring your own yoga mat, and note that blocks and straps will not be available.  Social Distancing and capacities in effect, space is very limited & sanitization protocols in place)\r\n",
     "eligibility": "",
     "fees": "Goodlife membership",
     "duration": 60,
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
-    "tags": [
-      "Flexibility & Mobility",
-      "Mindfulness",
-      "Yoga"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/hot-yin-yoga.html"
+    "tags": [],
+    "website": "https://www.goodlifefitness.com/classes/hot-yoga-open-practice--self-guided-.html"
   },
   {
-    "id": "hl-waterloo-goodlife-731560",
-    "programName": "LES MILLS PILATES™",
+    "id": "hl-waterloo-goodlife-627753",
+    "programName": "Sculpt & Tone",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
     "province": "",
     "postalCode": "",
     "areaServed": "",
-    "description": "LES MILLS PILATES™ features classic mat Pilates movements – with a twist. With core moves, unique music and supportive coaching, it takes the Pilates experience to a whole new level. There’s no need for expensive equipment, and each workout has been tested and iterated to leave you feeling strong, uplifted and calm. Please note, actual workout length is 45 mins. Exclusive to GoodLife Fitness.",
+    "description": "Make muscle, burn calories, lose fat!  An effective total body muscle conditioning workout utilizing a variety of equipment and options.  A great complement to any cardio workout and recommended for all members.",
     "eligibility": "",
     "fees": "Goodlife membership",
     "duration": 60,
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/sculpt---tone.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-828660",
+    "programName": "HYROX Foundational Training",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "This training class focuses on the basics and beyond of HYROX training including muscular endurance, and cardio based exercises. Your coach will support and guide you as you increase your stamina while also preparing you for the specific demands faced in a HYROX race. What is HYROX? HYROX is a global fitness race for Every Body.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Cardio",
+      "HIIT & Athletic",
       "Strength"
     ],
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-626972",
-    "programName": "BODYBALANCE™",
-    "organizationName": "GoodLife",
-    "street": "",
-    "city": "GoodLife",
-    "province": "",
-    "postalCode": "",
-    "areaServed": "",
-    "description": "BODYBALANCE™ is a new generation yoga class that will improve your mind, your body and your life. A series of simple yoga moves, elements of Tai Chi and Pilates are set to inspiring music that will leave you feeling calm and centered. Exclusive to GoodLife Fitness.",
-    "eligibility": "",
-    "fees": "Goodlife membership",
-    "duration": 60,
-    "language": "English * French",
-    "phone": "",
-    "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-24.json",
-    "infosourcename": "goodlife",
-    "tags": [
-      "Flexibility & Mobility",
-      "Strength"
-    ],
-    "website": "https://www.goodlifefitness.com/classes/bodybalance_.html"
-  },
-  {
-    "id": "hl-waterloo-goodlife-824620",
+    "id": "hl-waterloo-goodlife-830570",
     "programName": "LES MILLS™ BREATH",
     "organizationName": "GoodLife",
     "street": "",
@@ -317,7 +130,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Mindfulness"
@@ -325,7 +138,31 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-628182",
+    "id": "hl-waterloo-goodlife-717989",
+    "programName": "BODYBALANCE™",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "BODYBALANCE™ is a new generation yoga class that will improve your mind, your body and your life. A series of simple yoga moves, elements of Tai Chi and Pilates are set to inspiring music that will leave you feeling calm and centered. Exclusive to GoodLife Fitness.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/bodybalance_.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-628187",
     "programName": "Zumba",
     "organizationName": "GoodLife",
     "street": "",
@@ -340,7 +177,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Dance"
@@ -348,7 +185,7 @@
     "website": "https://www.goodlifefitness.com/classes/zumba.html"
   },
   {
-    "id": "hl-waterloo-goodlife-777430",
+    "id": "hl-waterloo-goodlife-777435",
     "programName": "LES MILLS Strength Development™",
     "organizationName": "GoodLife",
     "street": "",
@@ -363,7 +200,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Strength"
@@ -371,7 +208,7 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-628954",
+    "id": "hl-waterloo-goodlife-628959",
     "programName": "STEP",
     "organizationName": "GoodLife",
     "street": "",
@@ -386,7 +223,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cardio"
@@ -394,7 +231,31 @@
     "website": "https://www.goodlifefitness.com/classes/step.html"
   },
   {
-    "id": "hl-waterloo-goodlife-628350",
+    "id": "hl-waterloo-goodlife-828216",
+    "programName": "HYROX Engine",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "Engine classes will help Athletes looking to improve their cardiovascular stamina and become a faster and more efficient runner, under the guidance of a Coach. Focusing on aerobic endurance exercises and functional threshold training, your lactate threshold will improve along with your overall fitness and health. Cardiovascular training is the core of HYROX training and this class will help you perform better in a HYROX race. What is HYROX? HYROX is a global fitness race for Every Body.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
+  },
+  {
+    "id": "hl-waterloo-goodlife-628355",
     "programName": "BARRE",
     "organizationName": "GoodLife",
     "street": "",
@@ -409,7 +270,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Dance",
@@ -418,7 +279,7 @@
     "website": "https://www.goodlifefitness.com/classes/barre.html"
   },
   {
-    "id": "hl-waterloo-goodlife-629063",
+    "id": "hl-waterloo-goodlife-629068",
     "programName": "BODYCOMBAT™",
     "organizationName": "GoodLife",
     "street": "",
@@ -433,7 +294,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cardio"
@@ -441,32 +302,30 @@
     "website": "https://www.goodlifefitness.com/classes/bodycombat_.html"
   },
   {
-    "id": "hl-waterloo-goodlife-745660",
-    "programName": "Hot Power Yoga",
+    "id": "hl-waterloo-goodlife-791972",
+    "programName": "BODYPUMP™",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
     "province": "",
     "postalCode": "",
     "areaServed": "",
-    "description": "Focusing on using the breath to enhance each pose, this flowing yoga class will move seamlessly from one pose to the next allowing for a powerful practice sure to heat the body and release the mind.",
+    "description": "BODYPUMP™ is THE ORIGINAL BARBELL CLASS™, the ideal workout for anyone looking to get lean, toned and fit – fast. Using light to moderate weights with lots of repetition (reps), BODYPUMP™ gives you a total body workout. Using scientifically-backed moves and techniques, you will leave the class feeling challenged and motivated, ready to come back for more! Exclusive to GoodLife Fitness.",
     "eligibility": "",
     "fees": "Goodlife membership",
     "duration": 60,
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
-      "Flexibility & Mobility",
-      "Mindfulness",
-      "Yoga"
+      "Strength"
     ],
-    "website": "https://www.goodlifefitness.com/classes/hot-power-yoga.html"
+    "website": "https://www.goodlifefitness.com/classes/bodypump_.html"
   },
   {
-    "id": "hl-waterloo-goodlife-822010",
+    "id": "hl-waterloo-goodlife-822015",
     "programName": "BWORKZ (Bollywood Dance Fitness)",
     "organizationName": "GoodLife",
     "street": "",
@@ -481,7 +340,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-25.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cardio",
@@ -490,8 +349,57 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-775254",
-    "programName": "RIDE: Luck of the Draw",
+    "id": "hl-waterloo-goodlife-745266",
+    "programName": "Hot Yin Yoga",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "Hot Yin Yoga is a form of yoga, held in a heated room, that is devoted to releasing the power of your body by increasing energy flow through its Meridians - this means a MORE DYNAMIC YOU. Targeting the deeper connective tissues such as the ligaments, bones, joints and, primarily, the fascia Yin Yoga utilizes longer held poses - 3 - 5 minutes or more; the perfect complement to the traditional stronger yoga‘s. Done primarily on the floor, at first Yin Yoga may seem slow, passive and soft, but you will soon discover that it can be quite challenging in its own way.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-30.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Mindfulness",
+      "Yoga"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/hot-yin-yoga.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-828019",
+    "programName": "HYROX Power",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "A training class offering a comprehensive and complete workout focusing specifically on developing strength in all forms possible. Your Coach will lead you lead through a variety of workout formats such as AMRAPS (As Many Reps As Possible), Strength intervals, TOTMS (Top of the Minute), Partner Workouts, 'I Go You Go' sessions, and volume training. Build your strength one class at a time! What is HYROX? HYROX is a global fitness race for Every Body.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-31.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
+  },
+  {
+    "id": "hl-waterloo-goodlife-775259",
+    "programName": "RIDE: Tour de France - Stage 19",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
@@ -505,7 +413,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-26.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-31.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cycling"
@@ -513,30 +421,30 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-639778",
-    "programName": "LES MILLS DANCE™ 30min/BODYJAM® 30min",
+    "id": "hl-waterloo-goodlife-778868",
+    "programName": "BODYPUMP HEAVY™",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
     "province": "",
     "postalCode": "",
     "areaServed": "",
-    "description": "LES MILLS DANCE™ is an innovative dance workout to progressive global sounds. Simple to follow but incredibly energetic, this 45-minute cardio-based class is perfect for anyone who loves the mental and physical empowerment of dance! Exclusive to GoodLife Fitness. BODYJAM® is a combination of today’s hottest music and movement styles. It starts with an easy and engaging warm up, leading to an isolations track to bring awareness to moving our bodies, and includes two separate cardio dance blocks. You’ll explore Hip-Hop, Contemporary, Latin and more genres. This cardio workout utilizes high movement repetition to help participants feel confident, successful and most importantly…. LIKE A DANCER! Note, during this class, the Instructor and the participants may be facing the mirrors.",
+    "description": "BODYPUMP HEAVY™ is tempo-based weightlifting class that switches on your metabolic engine to build lean muscle like nothing else. Drawing on traditional lifting techniques, each class challenges strength, builds lean muscle, and drives measurable performance gains. It’s simple to do and the slow tempo with lots of recovery periods allows for expert coaching, so you master form and technique. Driven by iconic music and group energy, it turns traditional weightlifting into a fun, social, and addictive experience. Exclusive to GoodLife Fitness.",
     "eligibility": "",
     "fees": "Goodlife membership",
     "duration": 60,
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-26.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-31.json",
     "infosourcename": "goodlife",
     "tags": [
-      "Dance"
+      "Strength"
     ],
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-630375",
+    "id": "hl-waterloo-goodlife-630380",
     "programName": "BODYSTEP™",
     "organizationName": "GoodLife",
     "street": "",
@@ -551,7 +459,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-26.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-31.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cardio"
@@ -559,8 +467,8 @@
     "website": "https://www.goodlifefitness.com/classes/bodystep_.html"
   },
   {
-    "id": "hl-waterloo-goodlife-790750",
-    "programName": "HOT STUDIO - LES MILLS VINYASA & BREATH 15 mins",
+    "id": "hl-waterloo-goodlife-790755",
+    "programName": "Hot Vin Yin Fusion",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
@@ -574,15 +482,88 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-26.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-31.json",
     "infosourcename": "goodlife",
     "tags": [
+      "Flexibility & Mobility"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/hot-vin-yin-fusion.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-828130",
+    "programName": "HYROX Complete Training",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "This high intensity class focuses on muscular endurance, and cardio based exercises providing a unique blend of race-specific training with general fitness improvement in mind. Designed to increase your stamina through long blocks of effort, this class will build on specific HYROX related skills and get you race ready all under the guidance of a Coach. What is HYROX? HYROX is a global fitness race for Every Body.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-01.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Cardio",
+      "HIIT & Athletic",
       "Strength"
     ],
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-745586",
+    "id": "hl-waterloo-goodlife-631190",
+    "programName": "BODYATTACK™",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "BODYATTACK™ is a high-energy, sports-inspired workout with moves that combine athletic movements like running, lunging and jumping with strength exercises such as push-ups and squats. With options for everyone, this class caters to all fitness levels! Exclusive to GoodLife Fitness.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-01.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "HIIT & Athletic"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/bodyattack_.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-778261",
+    "programName": "Hot Power Yoga",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "Focusing on using the breath to enhance each pose, this flowing yoga class will move seamlessly from one pose to the next allowing for a powerful practice sure to heat the body and release the mind.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-01.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Mindfulness",
+      "Yoga"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/hot-power-yoga.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-745591",
     "programName": "Hot Yoga",
     "organizationName": "GoodLife",
     "street": "",
@@ -597,7 +578,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-28.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-02.json",
     "infosourcename": "goodlife",
     "tags": [
       "Flexibility & Mobility",
@@ -607,7 +588,7 @@
     "website": "https://www.goodlifefitness.com/classes/hot-yoga.html"
   },
   {
-    "id": "hl-waterloo-goodlife-784308",
+    "id": "hl-waterloo-goodlife-784313",
     "programName": "LES MILLS YOGA™ HATHA",
     "organizationName": "GoodLife",
     "street": "",
@@ -622,7 +603,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-28.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-02.json",
     "infosourcename": "goodlife",
     "tags": [
       "Flexibility & Mobility"
@@ -630,7 +611,7 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-732604",
+    "id": "hl-waterloo-goodlife-732609",
     "programName": "Hot Restorative Yoga",
     "organizationName": "GoodLife",
     "street": "",
@@ -645,7 +626,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-28.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-02.json",
     "infosourcename": "goodlife",
     "tags": [
       "Flexibility & Mobility",
@@ -655,7 +636,76 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-622811",
+    "id": "hl-waterloo-goodlife-835609",
+    "programName": "Les Mills Virtual BODYPUMP™",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "BODYPUMP™ is the original barbell workout for absolutely everyone. Using light to moderate weights with lots of repetition (reps), BODYPUMP™ gives you a total body workout that burns calories, strengthens and tones.  This is a featured class you don't want to miss!",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/les-mills-virtual-bodypump.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-621938",
+    "programName": "20/20/20",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "A creative mix of low impact, step, and sculpting to provide fun in a challenging format that will guarantee you results in a short period of time.  Ideal for all fitness levels.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Cardio"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/20-20-20.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-622589",
+    "programName": "NEWBODY",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "NEWBODY is a GoodLife Fitness exclusive class that combines the best of cardio and strength training that is functional in nature.  We integrate both light hand weights 1-3 lbs and resistance tubing in this low impact, multi-level workout ideal for all bodies and abilities.  Whether you are new to group fitness or looking to build additional strength and stamina NEWBODY will help you keep you fit for life.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Cardio"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/newbody.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-622816",
     "programName": "RPM™ ",
     "organizationName": "GoodLife",
     "street": "",
@@ -670,7 +720,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-29.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cycling"
@@ -678,7 +728,32 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-622743",
+    "id": "hl-waterloo-goodlife-745464",
+    "programName": "Yoga",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "GoodLife’s multi-level Yoga class will take participants through a number of poses (asanas) designed to increase flexibility and increase stamina while releasing the mind. Unwind in this gentle, non-competitive environment while learning basic breathing techniques and proper body alignment.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Flexibility & Mobility",
+      "Mindfulness",
+      "Yoga"
+    ],
+    "website": "https://www.goodlifefitness.com/classes/yoga.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-622748",
     "programName": "BODYPUMP™ ",
     "organizationName": "GoodLife",
     "street": "",
@@ -693,7 +768,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-29.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
     "infosourcename": "goodlife",
     "tags": [
       "Strength"
@@ -701,7 +776,7 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-747953",
+    "id": "hl-waterloo-goodlife-747958",
     "programName": "Hot Yoga Foundations",
     "organizationName": "GoodLife",
     "street": "",
@@ -716,7 +791,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-29.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
     "infosourcename": "goodlife",
     "tags": [
       "Flexibility & Mobility",
@@ -726,7 +801,30 @@
     "website": "https://www.goodlifefitness.com/classes/hot-yoga-foundations.html"
   },
   {
-    "id": "hl-waterloo-goodlife-783902",
+    "id": "hl-waterloo-goodlife-733632",
+    "programName": "LES MILLS PILATES™",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "LES MILLS PILATES™ features classic mat Pilates movements – with a twist. With core moves, unique music and supportive coaching, it takes the Pilates experience to a whole new level. There’s no need for expensive equipment, and each workout has been tested and iterated to leave you feeling strong, uplifted and calm. Please note, actual workout length is 45 mins. Exclusive to GoodLife Fitness.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 45,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-03.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
+  },
+  {
+    "id": "hl-waterloo-goodlife-783907",
     "programName": "HOT STUDIO - LES MILLS YOGA™ HATHA",
     "organizationName": "GoodLife",
     "street": "",
@@ -741,7 +839,7 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-06-30.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-04.json",
     "infosourcename": "goodlife",
     "tags": [
       "Strength"
@@ -749,30 +847,30 @@
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-674119",
-    "programName": "RPM™ - 60min format featuring Canadian Artists!",
+    "id": "hl-waterloo-goodlife-833614",
+    "programName": "HOT STUDIO - LES MILLS PILATES™",
     "organizationName": "GoodLife",
     "street": "",
     "city": "GoodLife",
     "province": "",
     "postalCode": "",
     "areaServed": "",
-    "description": "RPM™ is an indoor cycling class where you control your own resistance levels and speed. Set to great music, RPM takes you on a journey of hill climbs, sprints and flat riding that will build your performance and boost your cardio fitness. It’s fun, low-impact and motivating! Exclusive to GoodLife Fitness.",
+    "description": "HOT STUDIO - LES MILLS PILATES™ features classic mat Pilates movements – with a twist. With core moves, unique music and supportive coaching, it takes the Pilates experience to a whole new level. There’s no need for expensive equipment, and each workout has been tested and iterated to leave you feeling strong, uplifted and calm. Please note, actual workout length is 45 mins at a studio temperature of 94 degrees. Exclusive to GoodLife Fitness. Be sure to bring water and a small towel for a comfortable experience! \r\n\r\n * Please note that select classes in this studio require a membership upgrade or pay-as-you-go purchase. Before attending for the first time please contact the club for details. You must be 16 years of age or older to attend this class.",
     "eligibility": "",
     "fees": "Goodlife membership",
     "duration": 60,
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-01.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-05.json",
     "infosourcename": "goodlife",
     "tags": [
-      "Cycling"
+      "Strength"
     ],
     "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   },
   {
-    "id": "hl-waterloo-goodlife-775255",
+    "id": "hl-waterloo-goodlife-775260",
     "programName": "RIDE",
     "organizationName": "GoodLife",
     "street": "",
@@ -787,11 +885,58 @@
     "language": "English * French",
     "phone": "",
     "email": "",
-    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-07-03.json",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-07.json",
     "infosourcename": "goodlife",
     "tags": [
       "Cycling"
     ],
     "website": "https://www.goodlifefitness.com/classes/ride.html"
+  },
+  {
+    "id": "hl-waterloo-goodlife-639784",
+    "programName": "LES MILLS DANCE™ 30min/BODYJAM® 30min",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "LES MILLS DANCE™ is an innovative dance workout to progressive global sounds. Simple to follow but incredibly energetic, this 45-minute cardio-based class is perfect for anyone who loves the mental and physical empowerment of dance! Exclusive to GoodLife Fitness. BODYJAM® is a combination of today’s hottest music and movement styles. It starts with an easy and engaging warm up, leading to an isolations track to bring awareness to moving our bodies, and includes two separate cardio dance blocks. You’ll explore Hip-Hop, Contemporary, Latin and more genres. This cardio workout utilizes high movement repetition to help participants feel confident, successful and most importantly…. LIKE A DANCER! Note, during this class, the Instructor and the participants may be facing the mirrors.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-07.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Cardio",
+      "Dance"
+    ],
+    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
+  },
+  {
+    "id": "hl-waterloo-goodlife-790756",
+    "programName": "HOT STUDIO - LES MILLS VINYASA & BREATH 15 mins",
+    "organizationName": "GoodLife",
+    "street": "",
+    "city": "GoodLife",
+    "province": "",
+    "postalCode": "",
+    "areaServed": "",
+    "description": "Feel a dynamic hit of energy as you sync your breath to beat and move through powerful sequences that build heat, strength and flexibility. Please note, actual workout length is 45 mins. Exclusive to GoodLife Fitness. Feel a dynamic hit of energy as you sync your breath to beat and move through powerful sequences that build heat, strength and flexibility. Please note, actual workout length is 45 mins. Exclusive to GoodLife Fitness. LES MILLS™ BREATH A 15 mins breath focused class that blends ambient music, guided breathwork, and simple movement. Designed to improve breath control, enhance mental clarity and focus, and reduce stress. Exclusive to GoodLife Fitness.",
+    "eligibility": "",
+    "fees": "Goodlife membership",
+    "duration": 60,
+    "language": "English * French",
+    "phone": "",
+    "email": "",
+    "infosourceurl": "https://www.goodlifefitness.com/content/goodlife/en/class-schedule/jcr:content/root/responsivegrid/getclassschedule.GetClasses.7.undef.undef.2026-08-07.json",
+    "infosourcename": "goodlife",
+    "tags": [
+      "Strength"
+    ],
+    "website": "https://www.goodlifefitness.com/class-schedule.html#no-redirect"
   }
 ]

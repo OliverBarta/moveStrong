@@ -1,8 +1,14 @@
+// type "node scraper4everywhere" in terminal
+// this will scrape healthline
+
 const axios = require('axios');
 const cheerio = require('cheerio');
 const fs = require('fs');
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+// what is searched in healthline to get the sites
+const searchInHealthline = "Exercise programs"
 
 function extractAddress($$) {
     const span = $$('#ctl00_ContentPlaceHolder1_lblAddress');
@@ -96,7 +102,8 @@ async function getAllLinks(query) {
         }
 
         // for TESTING REMOVE AFTER
-        if (page >=4) break;
+        // this limits the amount of pages searched. Only used to speed up search.
+        // if (page >=4) break;
 
         page++;
         await delay(300);
@@ -160,9 +167,9 @@ async function scrapeProgram(url, index) {
     };
 }
 
-async function scrapeDeepHealthline() {
+async function scrapeDeepHealthline(searchInHealthline) {
     try {
-        const linkArray = await getAllLinks('Exercise programs');
+        const linkArray = await getAllLinks(searchInHealthline);
         console.log(`\n ${linkArray.length} unique links collected. Starting detail scrape...\n`);
 
         const compiledPrograms = [];
@@ -204,4 +211,4 @@ async function scrapeDeepHealthline() {
     }
 }
 
-scrapeDeepHealthline();
+scrapeDeepHealthline(searchInHealthline);
